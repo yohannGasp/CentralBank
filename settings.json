@@ -1,0 +1,19 @@
+{
+	"settings":[
+		{
+			"name":"ОТЧЕТНОСТЬ kliko",
+			"path_in":"/tmp/123/in/",
+			"maska":"*.*",
+			"archive":"/tmp/123/archive/kliko/",
+			"target":"/tmp/123/target/",
+			"period":"10",
+			"script":"",
+			"command_in":"ARCHIVE_IN;MOVE_IN;",
+			"command_out":"ARCHIVE_OUT;LOADKEY_1;SIGN_1;CRYPT_1(KLIKO);RESETKEY_1;MOVE_OUT;",
+			"path_out":"/tmp/123/uta/out/"
+		}
+	],
+	"log":"log.txt",
+	"ARJ":"/usr/bin/zip"
+}
+
